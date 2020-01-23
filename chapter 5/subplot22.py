@@ -34,6 +34,3 @@ plt.xticks([]), plt.yticks([])
 plt.title('Boat')
 
 plt.show()
-
-
-
