@@ -5,8 +5,8 @@ import math
 citra = cv2.imread('taipei101.png')
 jumBaris, jumKolom = citra.shape[:2]
 
-matriks = np.float32([[1, 0.25, 0], [0, 1, 0]])
-hasil = cv2.warpAffine(citra, matriks, (int(1.4 * jumKolom), jumBaris))
+matriks = np.float32([[1, 0.1, 0], [-0.25, 1, 0]])
+hasil = cv2.warpAffine(citra, matriks, (jumKolom, jumBaris))
 
 gab = np.hstack((citra, hasil))
 
