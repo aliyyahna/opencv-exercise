@@ -3,7 +3,7 @@ import random
 import sys
 
 if len(sys.argv) != 3:
-    print('Pemakaian: python ' + 'garamdanmerica.py nama berkas probabilitas')
+    print('Pemakaian: python ' + 'garamdanmerica.py namaberkas probabilitas')
     sys.exit()
 
 berkas = sys.argv[1]
